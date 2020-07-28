@@ -1,14 +1,11 @@
-import React from 'react';
-import Menu from './components/Menu'
-// import BannerMain from './components/BannerMain/index'
-
+import React from "react";
+import HomeMenu from './components/pages/Home/'
 
 function App() {
   return (
     <div>
-      <Menu />
-      {/* <BannerMain /> */}
-   </div>
+    <HomeMenu/>
+    </div>
   );
 }
 
